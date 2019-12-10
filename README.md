@@ -1,8 +1,10 @@
 # trading
     这是一个校园二手物品交易平台，是我的第一个J2EE练手项目。
     
-    这段时间正自学完Servlet和JSP,所以前前后后花了半个月时间写了这个小项目，用的技术都很简单，前端用到了：HTML, CSS, JavaScript, JQuery;
-J2EE用到了Tomcat, Servlet, Jsp, Fillter;数据库用的是MySQL。
+    这段时间正自学完Servlet和JSP,所以前前后后花了半个月时间写了这个小项目，用的技术都很简单：
+        前端用到了：HTML, CSS, JavaScript, JQuery;
+        J2EE用到了Tomcat, Servlet, Jsp, Fillter;
+        数据库用的是MySQL。
 
     开发环境：
         JDK1.8  MySQL5.7  Tomcat7  IDE是IDEA2018.1
