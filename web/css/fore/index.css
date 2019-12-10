@@ -1,0 +1,183 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+	background-color: #F4F8FB;
+}
+
+.site-warpper {
+	margin: 0;
+	padding: 0;
+	height: 500px;
+	width: 100%;
+}
+
+/*设置背景图片主体*/
+.site-header-outer {
+	background-image: url(../../img/fore/background.jpeg);
+	position: absolute;
+    width:100%;
+    height:500px;
+    min-width: 1000px;
+    z-index:1;
+    zoom: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-position: center 0;
+}
+
+/*上半部css*/
+.inner {
+	height: auto;
+	width: 100%;
+    max-width: 1240px;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.site-title {
+	margin-top: 100px;
+	font-size: 60px;
+}
+
+.site-title a{
+	color: #396486;
+	text-decoration: none;
+}
+
+.site-description {
+	color: #dddddd;
+	margin-top: 30px;
+	float: right;
+}
+
+.site-search {
+	margin-top: 140px;
+	height: 34px;
+	line-height: 34px;
+}
+
+#publish {
+	margin-left: 20px;
+	width: 100px;
+	font-family: '微软雅黑';
+	font-size: 16px;
+}
+
+#keyword {
+	width: 500px;
+	border-radius: 4px;
+}
+
+#search-button {
+	margin-left: 5px;
+	width: 70px;
+	font-family:'微软雅黑';
+	font-size: 16px;
+}
+
+#publish_href {
+	color: #333333;
+}
+
+.info {
+	font-size: 19px;
+	float: right;
+	margin-right: 10px;
+}
+
+.info a {
+	color: #dddddd;
+	text-decoration: none;
+}
+
+
+/*下半部css*/
+.box-container {
+	background-color: #ffffff;
+	position: relative;
+	width: 1240px;
+	left: 50%;
+	margin-left: -620px;
+	margin-top: -50px;
+	z-index:2;
+	overflow: hidden;
+	border-radius: 4px;
+	border: 1px solid rgba(0,0,0,0.1);
+}
+
+.box-container .good-item{
+	width: 220px;
+	height:300px;
+	position: relative;
+	float: left;
+	margin-left:23px;
+	margin-bottom: 25px;
+}
+
+.box-container .good-item .pic img{
+	width: 160px;
+	height: 160px;
+	display: block;
+	margin: 20px auto;
+}
+.box-container .good-item .name,.box-container .good-item .desc{
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	text-align: center;
+	font-weight: normal;
+	font-size: 13px;
+}
+.box-container .good-item .name{
+	width: 200px;
+	margin: 0 auto 10px;
+}
+.box-container .good-item .desc{
+	width: 210px;
+	color: #b0b0b0;
+	margin: 0 auto;
+}
+.box-container .good-item .price{
+	text-align: center;
+	margin-top: 20px;
+}
+.box-container .good-item .price span{
+	color: #FF6700;
+}
+.box-container .good-item .price i{
+	font-style: normal;
+	text-decoration: line-through;
+	margin-left: 5px;
+	color: #b0b0b0;
+}
+.box-container .good-item .pop{
+	height: 56px;
+	background-color: #FF6700;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	padding: 10px 25px;
+	display: none;
+}
+.box-container .good-item .pop h5{
+	font-weight: normal;
+	color: #fff;
+	line-height: 16px;
+	height: 32px;
+	overflow: hidden;
+	margin-bottom: 4px;
+}
+.box-container .good-item .pop p{
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	color: #fff;
+	color: rgba(255,255,255,0.6);
+}

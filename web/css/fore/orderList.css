@@ -1,0 +1,99 @@
+body {
+    background-image: url(../../img/fore/background.jpeg);
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    font-family: "微软雅黑";
+}
+
+.orderList-top {
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 150px;
+    width: 1240px;
+}
+
+.orderList-top .site-title {
+    margin-top: 30px;
+    font-size: 55px;
+}
+
+.orderList .site-title a{
+    color: #396486;
+    text-decoration: none;
+}
+
+.orderList-top .site-description {
+    float: right;
+    color: #396486;
+}
+
+.orderList-name {
+    font-size: 18px;
+    margin-left: 290px;
+}
+
+
+.orderList-bottom {
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 50px;
+    height: auto;
+    width: 1200px;
+    font-size: 18px;
+}
+
+
+.orderList-item-table,tr{
+    border:2px solid #396486;
+}
+
+.orderList-item-table {
+    width: 100%;
+}
+
+th {
+    height: 50px;
+    font-size: 18px;
+    padding: 15px;
+    text-align: center;
+}
+
+td{
+    padding: 12px;
+    text-align: center;
+}
+
+#th1 {
+    width: 170px;
+}
+#th2 {
+    width: 170px;
+}
+#th3 {
+    width: 170px;
+}
+#th4 {
+    width: 170px;
+}
+#th5 {
+    width: 170px;
+}
+#th6 {
+    width: 170px;
+}
+#th7 {
+    width: 170px;
+}
+
+.orderList-operate {
+    color: #dddddd;
+}
+a.orderList-operate {
+    text-decoration: none;
+}
+

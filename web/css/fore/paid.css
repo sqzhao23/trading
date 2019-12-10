@@ -1,0 +1,49 @@
+body {
+    background-image: url(../../img/fore/background.jpeg);
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    font-family: "微软雅黑";font-size: 20px;
+}
+
+.paid-top {
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 150px;
+    width: 1240px;
+}
+
+.paid-top .site-title {
+    margin-top: 30px;
+    font-size: 55px;
+}
+
+.paid-top .site-title a{
+    color: #396486;
+    text-decoration: none;
+}
+
+.paid-top .site-description {
+    float: right;
+    color: #396486;
+}
+
+.paid-name {
+    font-size: 18px;
+    margin-left: 290px;
+}
+
+.info {
+    width: 1160px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.th {
+    width: 180px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+

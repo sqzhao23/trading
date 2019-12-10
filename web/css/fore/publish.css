@@ -1,0 +1,113 @@
+body {
+	background-image: url(../../img/fore/background.jpeg);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	font-family: "微软雅黑";
+}
+
+.publish-top {
+	left: 0;
+	right: 0;
+	margin: auto;
+	height: 150px;
+	width: 1240px;
+}
+
+.publish-top .site-title {
+	margin-top: 30px;
+	font-size: 55px;
+}
+
+.publish-top .site-title a{
+	color: #396486;
+	text-decoration: none;
+}
+
+.publish-top .site-description {
+	float: right;
+	color: #396486;
+}
+
+.publish-name {
+	font-size: 18px;
+	margin-left: 290px;
+}
+.publish-name a {
+	text-decoration: none;
+}
+
+.publish-bottom {
+	left: 0;
+	right: 0;
+	margin: auto;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	padding-right: 50px;
+	height: auto;
+	width: 1200px;
+	font-size: 16px;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	resize: vertical;
+}
+
+label {
+	padding: 12px 12px 12px 0;
+	display: inline-block;
+	font-size: 20px;
+}
+
+.col-25 {
+	float: left;
+	width: 25%;
+	margin-top: 6px;
+}
+
+.col-75 {
+	float: left;
+	width: 75%;
+	margin-top: 6px;
+}
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.publish-submit-button {
+	margin-left: 380px;
+	padding-top: 30px;
+}
+
+#publishNext-submit-button {
+	margin-left: 500px;
+	margin-top: 50px;
+}
+
+#img-single {
+	width: 300px;
+	height: 300px;
+	margin-top: 50px;
+}
+
+/*#img-1,#img-2,#img-3,#img-4 {*/
+	/*width: 70px;*/
+	/*height: 70px;*/
+	/*margin-left: 100px;*/
+
+	/*margin-top: -10px;*/
+/*}*/
+
+img[src=""]{
+	opacity: 0;
+}

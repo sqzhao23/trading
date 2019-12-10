@@ -1,0 +1,163 @@
+body {
+    background-image: url(../../img/fore/background.jpeg);
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    font-family: "微软雅黑";
+}
+
+.buy-top {
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 150px;
+    width: 1240px;
+}
+
+.buy-top .site-title {
+    margin-top: 30px;
+    font-size: 55px;
+}
+
+.buy-top .site-title a{
+    color: #396486;
+    text-decoration: none;
+}
+
+.buy-top .site-description {
+    float: right;
+    color: #396486;
+}
+
+.buy-name {
+    font-size: 18px;
+    margin-left: 290px;
+}
+.buy-name a {
+    text-decoration: none;
+}
+
+.info {
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 50px;
+    height: 180px;
+    width: 1200px;
+}
+
+input[type=text] {
+    width: 35%;
+    padding: 12px 20px;
+    margin: 3px 50px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.label {
+    margin-left: 50px;
+    font-family: "微软雅黑";
+    font-size: 18px;
+    color: #333333;
+}
+
+.buy-bottom {
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 50px;
+    height: auto;
+    width: 1200px;
+}
+
+.buy-item-table,tr{
+    border:2px solid #396486;
+}
+
+.buy-item-table {
+    width: 100%;
+}
+
+th {
+    height: 50px;
+    font-size: 18px;
+    padding: 15px;
+    text-align: center;
+}
+
+td{
+    padding: 12px;
+    text-align: center;
+}
+
+#th1 {
+    width: 150px;
+}
+#th2 {
+    width: 150px;
+}
+#th4 {
+    width: 400px;
+}
+#th3 {
+    width: 150px;
+}
+#th5 {
+    width: 150px;
+}
+#th6 {
+    width: 150px;
+}
+
+.buy-pic {
+    width: 60px;
+    height: 60px;
+}
+
+.buy-item-name {
+    font-size: 16px;
+}
+
+a.buy-item-name {
+    text-decoration: none;
+}
+
+.buy-item-mName {
+    font-size: 16px;
+}
+
+.buy-item-description {
+    font-size: 14px;
+}
+.item-originalPrice {
+    font-size: 16px
+}
+.item-salePrice {
+    font-size: 16px
+}
+
+.submit-button{
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 1000px;
+    padding-top: 20px;
+}
+
+#total-price {
+    font-size: 22px;
+    margin-top: 15px;
+    color: #dddddd;
+    margin-left: 720px;
+}
+
+#buy-submit-button {
+    float: right;
+    margin-bottom: 20px;
+}
+
